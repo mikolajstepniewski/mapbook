@@ -38,3 +38,4 @@ def add_user(users: list) -> None:
     users.append(new_user)
 add_user(data_of_users)
 read(data_of_users)
+data_of_users.pop(1)
